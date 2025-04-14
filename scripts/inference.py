@@ -79,6 +79,10 @@ def main(config, args):
 
     print(f"Initial seed: {torch.initial_seed()}")
 
+    print(f"Num frames: {config.data.num_frames}")
+    print(f"Resolution: {config.data.resolution}")
+    print(f"Mask image path: {config.data.mask_path}")
+
     pipeline(
         video_path=args.video_path,
         audio_path=args.audio_path,
