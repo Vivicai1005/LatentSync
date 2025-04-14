@@ -81,7 +81,7 @@ def main(config, args):
 
     print(f"Num frames: {config.data.num_frames}")
     print(f"Resolution: {config.data.resolution}")
-    print(f"Mask image path: {config.data.mask_path}")
+    print(f"Mask image path: {config.data.mask_image_path}")
 
     pipeline(
         video_path=args.video_path,
