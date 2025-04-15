@@ -6,5 +6,5 @@ python -m scripts.inference \
     --inference_steps 50 \
     --guidance_scale 2.0 \
     --video_path "/home/weicai12/vivicai/DiffSynth-Studio/examples/wanvideo/mi300_wan14_lady_3.mp4" \
-    --audio_path "assets/demo1_audio.wav" \
+    --audio_path "assets/demo3_audio.wav" \
     --video_out_path "video_out.mp4"
