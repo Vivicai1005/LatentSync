@@ -5,6 +5,6 @@ python -m scripts.inference \
     --inference_ckpt_path "checkpoints/latentsync_unet.pt" \
     --inference_steps 50 \
     --guidance_scale 2.0 \
-    --video_path "/home/weicai12/vivicai/DiffSynth-Studio/examples/wanvideo/data/merged_ghibli_dr_su.mp4" \
+    --video_path "/home/weicai12/vivicai/DiffSynth-Studio/examples/wanvideo/data/ merged_dr_su3.mp4" \
     --audio_path "/home/weicai12/vivicai/DiffSynth-Studio/examples/wanvideo/data/dr_su_reminder_12s.wav" \
-    --video_out_path "ghibli_dr_su_12s.mp4"
+    --video_out_path "dr_su3_12s.mp4"
